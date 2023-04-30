@@ -1,19 +1,18 @@
 body {
     box-sizing: border-box;
-    padding: 1em;
+    padding: 0.5em;
     display: flex;
 }
 
 .Rectangle2 {
     position: relative;
-    width: 26vw;
+    width: 100%;
     height: 60vw;
+    position: relative;
+    width: 100%;
 
-    top: 1%;
-    left: 2%;
-    right: 2%;
-
-    bottom: 1%;
+    bottom: 3vw;
+    top: 3vw;
     background: #FFF9F0;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 59px;
@@ -103,15 +102,13 @@ h3 {
 
 /* main layout */
 .wrapper {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center;
+    
 }
 
 .wrapper>* {
@@ -216,7 +213,7 @@ img {
 
     left: 3%;
     top: 2%;
-    width: 10vw;
+
     height: 2vw;
     text-align: start;
     font-family: 'Poppins';
@@ -295,13 +292,11 @@ img {
 
 .gifSector {
     position: relative;
-    width: 26vw;
+    width: 100%;
     height: 60vw;
-
-    top: 2%;
-    left: 2%;
-    right: 2%;
-
+    position: relative;
+    bottom: 3vw;
+    top: 3vw;
     display: block;
 
     background: linear-gradient(137.11deg, #B28A48 0%, #D0A866 33.85%, #FAEDD8 100%);
