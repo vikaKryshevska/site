@@ -368,21 +368,22 @@ p {
   color: #faf7f7;
 
 }
-.footer-clean .Email {
+.Email {
     position: absolute;
     top: 35vw;
     left: 35%;
     width: 30%;
 }
 
-.footer-clean input[type='email']
+.join .Email input[type='email']
 {
-  font-size:1em;
+  font-size: 1.2em;
    height: 3vw;
    margin-left:6%;
    width: 25vw;
    padding:3px;
    border-radius: 5px;
+
 }
 .footer-clean input[type='submit'] {
 
@@ -497,6 +498,10 @@ h2 {
         text-align: start;
         padding-bottom: 20px;
     }
+    .join .Email input[type='email']
+{
+  font-size: 0.7em;
+}
 }
 
 .col {
@@ -511,6 +516,7 @@ h2 {
     font-size: 13px;
     opacity: 0.6;
 }
+
 
 
 .rounded-social-buttons {

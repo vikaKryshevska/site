@@ -624,7 +624,7 @@ margin-left: 10%;
 
 input[type='email']
 {
-   font-size:0.7em;
+   font-size: 1.2em;
    height: 3vw;
    width: 25vw;
    padding:3px;
@@ -743,6 +743,10 @@ h2{
     .footer-clean .item {
       text-align:start;
       padding-bottom:20px;
+    }
+    input[type='email']
+    {
+       font-size: 0.7em;
     }
   }
   
