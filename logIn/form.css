@@ -139,6 +139,7 @@ h6 span{
   transform: translate3d(0, -50%, 35px) perspective(100px);
   z-index: 20;
   display: block;
+  
 }
 
 
@@ -147,12 +148,14 @@ h6 span{
   display: block;
     margin: 0;
     padding: 0;
+    width: 60vw;
+ 
 }
 .form-style {
   padding: 13px 20px;
-  padding-left: 55px;
+  padding-left: 2vw;
   height: 3vw;
-  width: 60%;
+  width: 65%;
   font-weight: 500;
   border-radius: 4px;
   font-size: 14px;
@@ -308,6 +311,11 @@ p {
 
 
 
+
+
+
+
+
 .join {
  
     position: relative;
@@ -369,7 +377,7 @@ p {
 
 .footer-clean input[type='email']
 {
-  font-size:1.4em;
+  font-size:1em;
    height: 3vw;
    margin-left:6%;
    width: 25vw;
@@ -386,7 +394,7 @@ p {
     font-size: 2vw;
     line-height: 113%;
     position: absolute;
-    top: 14%;
+    top: 15%;
     left: 74%;
     width: 5vw;
     height: 2.5vw;
@@ -568,4 +576,32 @@ h2 {
     color: #D0A866;
     background: #fefefe;
     border-color: #D0A866;
+}
+
+
+@media (max-width: 900px) {
+
+  .card-3d-wrap {
+    position: relative;
+    width: 30em;
+    max-width: 100%;
+    height: 30em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    margin-top: 60px;
+  }
+
+  
+.card-3d-wrapper {
+  margin-left: calc((50%-30em)/2);
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-clean input[type='email']
+{
+  font-size:0.8em;
+}
 }
