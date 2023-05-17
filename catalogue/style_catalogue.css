@@ -229,6 +229,7 @@ flex-grow: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
+    
 
 }
 
@@ -236,31 +237,32 @@ flex-grow: 0;
 
     flex-flow: row wrap;
     display: flex;
-    background: #F9F9F9;
+    border: 1.5238px solid #6A983C;
+    background: #fffff6;
     /* C1/D */
-    
-    border: 1.5238px solid #D1D1D1;
     border-radius: 18.2856px;
     height: 2em;
     width: 22em;
     border-radius: 10px;
-    text-align: end;
-    justify-content: center;
+    text-align: start;
+    justify-content: space-between;
     flex: none;
-order: 0;
-align-self: flex-start;
-flex-grow: 0;
-margin-left: 2vw;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin-left: 2vw;
 
 }
 .list_item {
+    
     font-weight: 400;
     font-size: 1em;
     margin-top: 0.3em;
     flex-direction: row;
     display: flex;
     flex-flow: wrap-reverse;
-
+    justify-content: space-between;
+    margin-right: 0.5vw;
 }
 
 .label_checkbox {
@@ -270,7 +272,7 @@ margin-left: 2vw;
     font-size: 21.3332px;
     line-height: 29px;
     margin-top: 1vw;
-    margin-right: 1vw;
+    margin-right: 0.5vw;
 }
 
 
@@ -332,12 +334,12 @@ margin-left: 2vw;
     min-width: 0;
     max-width: 100%;
     flex-wrap:wrap;
-    height: 24vw;
+    height: 27vw;
     justify-content: start;
 
     flex-direction: column;
     background: #FFFFFF;
- 
+    margin-bottom: 5vw;
     border: 1.5238px solid #ECD2A6;
     border-radius: 18px;
     padding: 1vw;
