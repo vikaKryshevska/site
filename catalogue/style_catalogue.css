@@ -6,9 +6,8 @@ body {
     width: fit-content;
     display: flex;
     background: linear-gradient(#f8f5f0, #ffffff);
-    font-family: var(--rt)
-        /*'Poppins', sans-serif*/
-    ;
+    font-family: var(--rt);
+    margin: 0;
 }
 
 
@@ -53,7 +52,7 @@ img {
 }
 
 .wrapper>* {
-    padding: 1px;
+   
     flex: 1 100%;
 }
 
@@ -1038,8 +1037,6 @@ input[type='email']
 
     background: #000000;
     color: white;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 200;
     font-size: 2vw;
     line-height: 113%;
