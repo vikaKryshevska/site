@@ -7,8 +7,18 @@ body {
     display: flex;
     background: linear-gradient(#f8f5f0, #ffffff);
     font-family: var(--rt);
-    margin: 0;
+    margin: 0; 
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    
 }
+
+body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
 
 
 /* navigation */
@@ -33,6 +43,10 @@ body {
     text-decoration: none;
     display: block;
     color: black;
+    transition: 0.4s;
+}
+button{
+    cursor: pointer;
 }
 
 img {
@@ -241,7 +255,7 @@ flex-grow: 0;
     /* C1/D */
     border-radius: 18.2856px;
     height: 2em;
-    width: 22em;
+    width: fit-content;
     border-radius: 10px;
     text-align: start;
     justify-content: space-between;
@@ -271,7 +285,6 @@ flex-grow: 0;
     font-size: 21.3332px;
     line-height: 29px;
     margin-top: 1vw;
-    margin-right: 0.5vw;
 }
 
 
@@ -1025,24 +1038,29 @@ input[type=range]::-webkit-slider-runnable-track {
     width: 30%;
 }
 
-input[type='email']
-{
-   font-size:0.7em;
-   height: 3vw;
-   width: 25vw;
-   padding:3px;
-   border-radius: 5px;
+.join .Email input[type='email'] {
+    font-size: 1.2em;
+    height: 3vw;
+    margin-left:6%;
+    width: 25vw;
+    padding:3px;
+    border-radius: 5px;
+    color: #cecece;
+
 }
+
 .footer-clean input[type='submit'] {
 
     background: #000000;
     color: white;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 200;
     font-size: 2vw;
     line-height: 113%;
     position: absolute;
-    margin-top: 0.5rem ;
-    margin-left: -5em;
+    top: 15%;
+    left: 76%;
     width: 5vw;
     height: 2.5vw;
     font-size: 1.2vw;
