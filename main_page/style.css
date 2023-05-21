@@ -347,7 +347,7 @@ margin-left: 10%;
 
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
     .arrivals, .young {
         margin-top: 10%;
         margin-left: 15%;
@@ -392,7 +392,8 @@ margin-left: 10%;
 .arrow{
     position: relative;
     text-align: start;
-    margin-top: -10.5em;
+    margin-top: -18.5rem;
+    right: 1.7rem;
     font-size: 3vw;
 }
 
@@ -409,6 +410,7 @@ margin-left: 10%;
   }
   
   .young  .item .arrow {
+    right: 0;
     margin-top: -5.9em;
   }
 
