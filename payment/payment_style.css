@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
     border-radius: 40px;
     text-align: start;
     margin: 7vw;
-    padding: 7vw;
+    padding: 0 7vw 7vw 7vw;
 }
 
 .panel-info {
@@ -319,6 +319,9 @@ body::-webkit-scrollbar {
     justify-content: start;
 }
 
+img{
+    mix-blend-mode: multiply;
+}
 .logo img {
 
     width: 8rem;
