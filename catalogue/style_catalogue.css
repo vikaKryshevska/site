@@ -621,6 +621,7 @@ li {
 }
 
 .card h4{
+    text-align: start;
     font-size: 1.6vw;
 }
 
@@ -735,30 +736,38 @@ input[type=range]::-webkit-slider-runnable-track {
 
 
 @media (max-width: 1000px) {
+
+    .choise {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
     .conteiner{
-    flex-direction: column;
-    display: inline-block;
-    flex-wrap:wrap;
-    justify-content:center;
+        
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-bottom: 5%;
+    margin: 0 auto;
+    
     }
 
 
     .content {
+        display: flex;
+        position: relative;
         flex-direction: row;
-      
         flex-wrap:wrap;
         justify-content:center;
-        margin-right: 0vw;
+        
         flex-shrink: 0;
-        width: 80%;
-        margin-left: 15%;
+        width: 50%;
 
     }
 
     
-    .list {
+    .list, .card {
 
         width: 70%;
         border-radius: 20px;
@@ -769,14 +778,10 @@ input[type=range]::-webkit-slider-runnable-track {
     
     }
 
-.card {
-    flex-shrink: 0;
-    width: 18em;
-    padding: 1vw;
-    margin-left: 3rem;
-}
+
 
 .card h4 {
+    text-align: center;
     font-size: 3vw;
 }
 
@@ -817,7 +822,7 @@ input[type=range]::-webkit-slider-runnable-track {
 
 
 .price-content {
-    margin-top: 3em;
+    margin-top: 5rem;
 }
 
 .price-content input[type=text] {
@@ -863,13 +868,14 @@ input[type=range]::-webkit-slider-runnable-track {
 
 .buttons {
     margin-top: 6vw;
-
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 
 .buttons button {
-    margin-left: 2em;
+    margin-left: 0;
     font-size: 1em;
     line-height: 113%;
     width: 6em;
@@ -891,7 +897,6 @@ input[type=range]::-webkit-slider-runnable-track {
         flex-wrap:  wrap;
         min-width: 0;
         margin-top: 10vw;
-        margin-left: 15%;
         justify-content:center;
        
     }
