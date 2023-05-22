@@ -428,6 +428,9 @@ padding-left: 0.3rem;
         margin: 5vw;
         padding: 5%;
     }
+    .element .form-control{
+        width: 88%;
+    }
   
     .form-group{
         justify-content: space-between;
