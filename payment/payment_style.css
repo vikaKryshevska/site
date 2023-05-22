@@ -61,11 +61,11 @@ body::-webkit-scrollbar {
 }
 
 .panel-info {
-    width: 90%;
+    width: 96%;
     border: 2px solid #A9A9A9;
     border-radius: 40px;
     text-align: start;
-    padding: 2rem;
+    padding: 2rem 1px 2rem 2rem;
 }
 
 .panel-heading {
@@ -258,9 +258,10 @@ body::-webkit-scrollbar {
 
 
 .method_body .additional_option {
-    width: 90%;
+    width: 98%;
     margin-top: 2rem;
     padding-top: 0.6rem;
+    padding-right: 1px;
 }
 .method_body .additional_option .label--checkbox{
     display: flex;
@@ -391,9 +392,9 @@ padding-left: 0.3rem;
 
 .Additional-group .field .form-control{
     justify-content: start;
-    
+    padding: 1px;
     height: 7rem;
-    width: 93%;
+    width: 100%;
 }
 
 
