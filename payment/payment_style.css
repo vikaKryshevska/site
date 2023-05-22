@@ -58,6 +58,13 @@ body::-webkit-scrollbar {
     text-align: start;
     margin: 7vw;
     padding: 0 7vw 7vw 7vw;
+   
+}
+
+.panel-body{
+    margin: 0;
+    padding: 0;
+   
 }
 
 .panel-info {
@@ -103,10 +110,12 @@ body::-webkit-scrollbar {
 
 .form-group {
     display: flex;
-    flex-wrap: wrap;
     justify-content: start;
     flex-direction: row;
+    width: 100%;
     margin-bottom: 3rem;
+     justify-content: space-between;
+
 }
 
 .form-group>* {
@@ -118,14 +127,14 @@ body::-webkit-scrollbar {
     display: block;
     min-width: 0;
     max-width: 100%;
-    flex-wrap: wrap;
+    padding: 0;
     position: relative;
     flex-direction: column;
-    margin-left: 0.5rem;
 }
 
 
 .field {
+    width: 100%;
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
@@ -137,7 +146,7 @@ body::-webkit-scrollbar {
 .form-control {
     background: #FFFFFF;
     height: 2.8rem;
-    width: 85%;
+    width: 95.5%;
     border: 1.67618px solid #D1D1D1;
     border-radius: 10.1142px;
 
@@ -160,7 +169,7 @@ body::-webkit-scrollbar {
     margin-top: 5rem;
     height: 1rem;
     width: fit-content;
-    background: #FFFFFF;
+    background: #f9f8f8;
     border: 1.67618px solid #D1D1D1;
     border-radius: 10.1142px;
     padding: 1rem;
@@ -213,6 +222,7 @@ body::-webkit-scrollbar {
     width: 1.3rem;
     height: 1.3rem;
     margin-top: -0.2rem;
+    margin-left: -0.1rem;
     border: 2.51427px solid #D1D1D1;
 
 }
@@ -258,10 +268,10 @@ body::-webkit-scrollbar {
 
 
 .method_body .additional_option {
-    width: 98%;
+    width: 96.4%;
     margin-top: 2rem;
     padding-top: 0.6rem;
-    padding-right: 1px;
+    padding-right: 1rem;
 }
 .method_body .additional_option .label--checkbox{
     display: flex;
@@ -289,7 +299,10 @@ body::-webkit-scrollbar {
     border-color: #6A983C;
 }
 
-.method_body .additional_option .checkbox:before,
+.method_body .additional_option .checkbox:before{
+    margin-left: -0.3rem;
+    border-radius: 20px;
+}
 .method_body .additional_option .checkbox:checked:after,
 .method_body .additional_option .checkbox:after {
     margin-left: -0.2rem;
@@ -385,16 +398,17 @@ padding-left: 0.3rem;
 
 
 .Additional-group .field{
+    margin-top: 1rem;
     flex-direction: column;
     height: fit-content;
+
     
 }
 
 .Additional-group .field .form-control{
-    justify-content: start;
-    padding: 1px;
-    height: 7rem;
-    width: 100%;
+    display: flex;
+    text-align: start;
+    width: 98%;
 }
 
 
@@ -414,14 +428,32 @@ padding-left: 0.3rem;
         margin: 5vw;
         padding: 5%;
     }
-
-    .panel-info {
-        width: 83%;
+  
+    .form-group{
+        justify-content: space-between;
     }
+
+    .method_body{
+        width: 94.5%;
+    }
+    .panel-info {
+        width: 90%;
+    }
+
+    .additional_option {
+        
+        width: fit-content;
+            resize: none;
+      
+    }
+    
+
 }
 
 
+
 button {
+    cursor:pointer;
     margin: 2rem 0 2rem 0;
     border-radius: 10px;
     color: white;
